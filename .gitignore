@@ -1,3 +1,7 @@
+# VSCode files
+*.code-workspace
+.vscode
+
 # Logs
 logs
 *.log
