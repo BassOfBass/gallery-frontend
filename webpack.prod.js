@@ -49,8 +49,7 @@ const webpackConfigProd = {
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "static/js/[name]-[contenthash].bundle.js",
-    assetModuleFilename: "static/assets/[name]-[contenthash][ext][query]",
+    filename: "[name].bundle.js",
     publicPath: "/",
     clean: true,
   },
